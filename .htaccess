@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteBase /avamusic
-RewriteCond %{THE_REQUEST} /(controllers|views|models)/.+ [NC]
+RewriteCond %{THE_REQUEST} /(controllers|models)/.+ [NC]
 RewriteRule ^ - [R=403,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
