@@ -1,3 +1,9 @@
+a {
+    text-decoration: none !important;
+}
+body {
+    overflow-x: hidden;
+}
 .background-orange {
     background-color: #fc3b00;
 }
