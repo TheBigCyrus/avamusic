@@ -7,7 +7,7 @@
         <a class="nav-link text-white sidebar-size" href="#"><img src="views/assets/img/icons8-home-12.png" alt=""> پادکست </a>
         <a class="nav-link text-white sidebar-size" href="#"><img src="views/assets/img/icons8-home-12.png" alt=""> پلی لیست </a>
         <a class="nav-link text-white sidebar-size" href="singers.html"><img src="views/assets/img/icons8-home-12.png" alt=""> خوانندگان ایرانی</a>
-        <a class="nav-link text-white sidebar-size" href="album.html"><img src="views/assets/img/icons8-home-12.png" alt=""> آلبوم</a>
+        <a class="nav-link text-white sidebar-size" href="/avamusic/albums"><img src="views/assets/img/icons8-home-12.png" alt=""> آلبوم</a>
         <a class="nav-link text-white sidebar-size" href="#"><img src="views/assets/img/icons8-home-12.png" alt=""> اپلیکیشن اندروید</a>
         <a class="nav-link text-white sidebar-size" href="#"><img src="views/assets/img/icons8-home-12.png" alt="">خرید اشتراک ویژه</a>
         <a class="nav-link text-white sidebar-size" href="#"><img src="views/assets/img/icons8-home-12.png" alt="">حریم خصوصی کاربران</a>

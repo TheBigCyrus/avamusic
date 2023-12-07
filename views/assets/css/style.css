@@ -48,3 +48,16 @@ top: 30%;
 .bg-singer{
     background-color: #010305;
 }
+
+.btn-orange {
+    background-color: #fc3b00;
+    color: azure;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.btn-orange:hover {
+    background-color: transparent;
+    border: 1px solid #fc3b00;
+    color: #fc3b00;
+}
