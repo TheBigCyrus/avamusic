@@ -13,19 +13,33 @@ switch ($request){
     case '/home':
     case '/':
     case '/index':
-        require "/controllers/index.php";
+        require "controllers/index.php";
         break;
     
     case "/musics":
-        require "/controllers/musics.php";
+        require "controllers/musics.php";
         break;
+
     case "/albums":
-        require "/controllers/albums.php";
+        require "controllers/albums.php";
         break;
-    case "/albums?id=$id":
-        require "/controllers/album.php";
+
+    case "/singers":
+        require "controllers/singers.php";
         break;
-        
+
+    case "/search?id=$id":
+        require "controllers/search.php";
+        break;
+
+   case "/albums?id=$id":
+        require "controllers/album.php";
+        break;
+
+    case "/singersProfile?id=$id":
+        require "controllers/singersProfile.php";
+        break;
+    
     default:
         die("404");
 }

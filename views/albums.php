@@ -11,7 +11,7 @@
       <?php foreach ($albums as $album) : ?>
         <a href="/avamusic/albums?id=<?= $album['ID'] ?>" class="col-3 p-2">
           <div class="card">
-            <img src="<?= $album['Poster']; ?>" class="card-img-top" alt="...">
+            <img src="<?= $album['Poster']; ?>" class="card-img-top" style="height: 200px;" alt="...">
             <div class="card-body">
               <p class="card-text text-center"><?= $album['Name']; ?></p>
               <p class="card-text text-center"><?= $album['SingerName']; ?></p>

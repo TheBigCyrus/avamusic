@@ -1,10 +1,9 @@
 <?php
-
 if (isset($_GET["id"])) {
 $singerProfile = $_GET['id'];
 }
     /** @var mysqli $db */
-    $statment = $db->query("SELECT musics.*, singers.Name SingerName FROM `musics` JOIN `singers` ON musics.SingerID = singers.ID where musics.AlbumID = $singerProfile ORDER BY `ID` DESC;");
+    $statment = $db->query("SELECT musics.*, singers.Name SingerName FROM `musics` JOIN `singers` ON musics.SingerID = singers.ID where musics.SingerID = $singerProfile ORDER BY `ID` DESC;");
 
     /** @var array $musics */
     $musics = [];
